@@ -71,7 +71,7 @@ def has_clear_gap(mask_band, min_width=200):
     return False
 
 
-cap = cv.VideoCapture(r"D:\Uni\Semester 6\DIP\Self\Project\Tesla_Model_Sangi\Dataset\Sunny\Sunny_Street.mp4")
+cap = cv.VideoCapture(r"D:\Uni\Semester 6\DIP\Self\Project\Tesla_Model_Sangi\Dataset\Cloudy\PXL_20250325_044746327.TS.mp4")
 detect_obj_count = 0
 road_classification_history = []
 prev_zero_ratio = 0
